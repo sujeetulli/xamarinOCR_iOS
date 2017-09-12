@@ -1,0 +1,13 @@
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/actool/_PartialAppManifest.items
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/optimized/ocrTestImage.png
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3.1/optimized/
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/bin/iPhoneSimulator/Debug/XamarinOCR.pdb
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/bin/iPhoneSimulator/Debug/XamarinOCR.exe
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/XamarinOCR.exe
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/obj/iPhoneSimulator/Debug/XamarinOCR.pdb
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/bin/iPhoneSimulator/Debug/Tesseract.Binding.iOS.dll
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/bin/iPhoneSimulator/Debug/Tesseract.dll
+/Users/mcsinh-mac-pro/Projects/XamarinOCR/XamarinOCR/bin/iPhoneSimulator/Debug/Tesseract.iOS.dll

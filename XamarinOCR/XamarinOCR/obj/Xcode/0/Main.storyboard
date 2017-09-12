@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                                <rect key="frame" x="0.0" y="49" width="320" height="186"/>
+                                <variation key="heightClass=regular-widthClass=compact" image="ocrTestImage.png">
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="OCR Output of Image" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                                <rect key="frame" x="0.0" y="246" width="320" height="157"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                                <rect key="frame" x="94.5" y="443" width="131" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="Jxu-vR-ZwD"/>
+                                    <constraint firstAttribute="height" constant="30" id="OiT-zo-1vO"/>
+                                </constraints>
+                                <state key="normal" title="Run">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7en-Rz-QkO"/>
+                            <constraint firstItem="7" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="40" id="9XO-Ia-sPK"/>
+                            <constraint firstItem="6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BY3-lT-DVQ"/>
+                            <constraint firstItem="3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BpH-zf-a6Z"/>
+                            <constraint firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="XDj-cV-nP2"/>
+                            <constraint firstItem="6" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="11" id="Zae-hn-cAB"/>
+                            <constraint firstItem="7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bnm-wx-Umy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="7" id="f6x-q6-ulb"/>
+                            <constraint firstItem="6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hPe-vf-1P9"/>
+                            <constraint firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="tqp-me-V24"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="3"/>
+                                <exclude reference="6"/>
+                                <exclude reference="7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="3"/>
+                                <include reference="6"/>
+                                <include reference="7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="OCRCommand" destination="7" id="name-outlet-7"/>
+                        <outlet property="OCRImage" destination="3" id="name-outlet-3"/>
+                        <outlet property="OCRTextResult" destination="6" id="name-outlet-6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1.875" y="-1.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ocrTestImage.png" width="640" height="480"/>
+    </resources>
+</document>

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{E32A1D65-6920-4324-B5B8-123B8D6F8305}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinOCR/Main.storyboard">
+    <Files>
+      <File FileName="XamarinOCR/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="XamarinOCR/TesseractApi.cs" Line="19" Column="30" />
+      <File FileName="XamarinOCR/Main.storyboard" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinOCR" expanded="True">
+            <Node name="XamarinOCR" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="Main.storyboard" selected="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamarinOCR PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D445C6F4-4DDB-4587-A6F6-85C6A9AB291C" />
+</Properties>
